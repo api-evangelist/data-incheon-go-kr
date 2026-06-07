@@ -1,0 +1,54 @@
+aid: data-incheon-go-kr
+name: Incheon Open Data
+description: >-
+  Incheon Open Data is a municipal government open-data portal for South Korea running DKAN.
+kind: government
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+url: https://raw.githubusercontent.com/api-evangelist/data-incheon-go-kr/refs/heads/main/apis.yml
+tags:
+  - Open Data
+  - DKAN
+  - Data Catalog
+  - DCAT
+  - Government Data
+  - Municipal Government
+  - South Korea
+created: '2026-06-07'
+modified: '2026-06-07'
+specificationVersion: '0.19'
+apis:
+  - aid: data-incheon-go-kr:catalog
+    name: Incheon Open Data DKAN API
+    description: >-
+      DKAN open-data API for Incheon Open Data.
+    humanURL: https://data.incheon.go.kr
+    baseURL: https://data.incheon.go.kr/api/1
+    tags:
+      - DKAN
+      - Open Data
+      - Catalog
+      - REST
+      - JSON
+    properties:
+      - type: Documentation
+        url: https://dkan.readthedocs.io/en/latest/
+      - type: Website
+        url: https://data.incheon.go.kr
+      - type: x-api-endpoint
+        url: https://data.incheon.go.kr/api/dataset.json
+common:
+  - type: Website
+    url: https://data.incheon.go.kr
+  - type: Documentation
+    url: https://dkan.readthedocs.io/en/latest/
+  - type: Plans
+    url: plans/data-incheon-go-kr-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/data-incheon-go-kr-rate-limits.yml
+  - type: FinOps
+    url: finops/data-incheon-go-kr-finops.yml
+  - type: Review
+    url: review.yml
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com

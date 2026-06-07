@@ -1,0 +1,11 @@
+name: Incheon Open Data
+url: https://raw.githubusercontent.com/api-evangelist/data-incheon-go-kr/refs/heads/main/review.yml
+created: '2026-06-07'
+modified: '2026-06-07'
+reviews:
+  - date: '2026-06-07'
+    rating: 4
+    summary: Live DKAN API verified.
+    endpoints:
+      - url: https://data.incheon.go.kr/api/dataset.json
+        status: 200
