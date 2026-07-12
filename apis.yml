@@ -37,6 +37,8 @@ apis:
       - type: x-api-endpoint
         url: https://data.incheon.go.kr/api/dataset.json
 common:
+  - type: DomainSecurity
+    url: security/data-incheon-go-kr-domain-security.yml
   - type: Website
     url: https://data.incheon.go.kr
   - type: Documentation
