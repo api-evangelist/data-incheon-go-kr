@@ -3,7 +3,18 @@ name: Incheon Open Data
 description: >-
   Incheon Open Data is a municipal government open-data portal for South Korea running DKAN.
 kind: government
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/data-incheon-go-kr.png
 url: https://raw.githubusercontent.com/api-evangelist/data-incheon-go-kr/refs/heads/main/apis.yml
 tags:
   - Open Data
